@@ -1,0 +1,4 @@
+# Setup
+
+```bash
+❯ mise install
