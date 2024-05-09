@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "rda"
+version = "0.1.0"
+description = ""
+authors = ["kiwamizamurai <24860100+kiwamizamurai@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+quarto-cli = "^1.4.554"
+matplotlib = "^3.8.4"
+jupyterlab = "^4.2.0"
+plotly = "^5.22.0"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+watermark = "^2.4.3"
+ruff = "^0.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+extend-include = ["*.ipynb"]
