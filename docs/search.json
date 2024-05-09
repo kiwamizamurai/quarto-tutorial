@@ -1,0 +1,56 @@
+[
+  {
+    "objectID": "src/japanese.html",
+    "href": "src/japanese.html",
+    "title": "Japanese ほげ",
+    "section": "",
+    "text": "日本語で\n書いちゃう\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n%load_ext watermark\n%watermark -n -u -v -iv -w\n\n\nLast updated: Thu May 09 2024\n\nPython implementation: CPython\nPython version       : 3.10.11\nIPython version      : 8.24.0\n\nnumpy     : 1.26.4\nmatplotlib: 3.8.4\n\nWatermark: 2.4.3\n\n\n\n\n\nCode\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis\n\n\n\n\n\n\\[\n\\begin{array}{rcl}\n\\text{new\\_a} &\\sim & \\operatorname{N}(0,~1)\n\\end{array}\n\\]\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Src",
+      "Japanese ほげ"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": ".",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "src/hello.html",
+    "href": "src/hello.html",
+    "title": "Quarto Basics",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n%load_ext watermark\n%watermark -n -u -v -iv -w\n\n\nThe watermark extension is already loaded. To reload it, use:\n  %reload_ext watermark\nLast updated: Thu May 09 2024\n\nPython implementation: CPython\nPython version       : 3.10.11\nIPython version      : 8.24.0\n\nipykernel : 6.29.4\nmatplotlib: 3.8.4\nnumpy     : 1.26.4\ndebugpy   : 1.8.1\n\nWatermark: 2.4.3\n\n\n\n\n\nCode\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
+    "crumbs": [
+      "Home",
+      "Src",
+      "Quarto Basics"
+    ]
+  },
+  {
+    "objectID": "src/hello.html#polar-axis",
+    "href": "src/hello.html#polar-axis",
+    "title": "Quarto Basics",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n%load_ext watermark\n%watermark -n -u -v -iv -w\n\n\nThe watermark extension is already loaded. To reload it, use:\n  %reload_ext watermark\nLast updated: Thu May 09 2024\n\nPython implementation: CPython\nPython version       : 3.10.11\nIPython version      : 8.24.0\n\nipykernel : 6.29.4\nmatplotlib: 3.8.4\nnumpy     : 1.26.4\ndebugpy   : 1.8.1\n\nWatermark: 2.4.3\n\n\n\n\n\nCode\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
+    "crumbs": [
+      "Home",
+      "Src",
+      "Quarto Basics"
+    ]
+  }
+]
